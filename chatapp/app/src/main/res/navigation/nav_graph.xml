@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/chatFragment">
+
+    <fragment
+        android:id="@+id/callFragment"
+        android:name="com.tuhoc.chatapp.ui.call.CallFragment"
+        android:label="fragment_call"
+        tools:layout="@layout/fragment_call" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.tuhoc.chatapp.ui.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.tuhoc.chatapp.ui.news.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/phoneBookFragment"
+        android:name="com.tuhoc.chatapp.ui.phonebook.PhoneBookFragment"
+        android:label="fragment_phone_book"
+        tools:layout="@layout/fragment_phone_book" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="Đoạn chat"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/callFragment"
+        android:icon="@drawable/ic_call"
+        android:title="Cuội gọi"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/phoneBookFragment"
+        android:icon="@drawable/ic_phonebook"
+        android:title="Danh bạ"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/newsFragment"
+        android:icon="@drawable/ic_news"
+        android:title="Tin"
+        app:showAsAction="always" />
+</menu>
